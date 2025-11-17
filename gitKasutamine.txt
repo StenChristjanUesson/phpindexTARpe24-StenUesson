@@ -7,3 +7,8 @@ git config --global --list - näitab mis on registreeritud
 ssh-keygen -o -t rsa -C "StenUesson@gmail.com"
 //võti salvestakse opilane/.ssh kausta
 //id_rsa.pub tuleb kopeerida oma git hub -reposse
+git add .
+git commit -a -m "on loodud phpIndex"
+git
+git
+git
