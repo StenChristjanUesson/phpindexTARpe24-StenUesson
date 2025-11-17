@@ -1,0 +1,8 @@
+canvas#tahvel{
+    background-color: rgb(156, 19, 19);
+    border: 1px solid black;
+}
+
+canvas#lipp{
+    border: 1px solid gray;
+}

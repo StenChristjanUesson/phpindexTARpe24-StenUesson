@@ -1,0 +1,9 @@
+git init - uus repo
+git config --global user.name "StenChristjanUesson" - Registeerib github konto nime
+git config --global user.email "StenUesson@gmail.com" - Registeerib github konto emaili
+git config --global --list - näitab mis on registreeritud
+
+//ssh võti loomine
+ssh-keygen -o -t rsa -C "StenUesson@gmail.com"
+//võti salvestakse opilane/.ssh kausta
+//id_rsa.pub tuleb kopeerida oma git hub -reposse
