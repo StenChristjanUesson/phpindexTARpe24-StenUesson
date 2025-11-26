@@ -1,17 +1,17 @@
 <h1>Teenuse kalkulaator</h1>
 <fieldset>
     <legend>Teenus</legend>
-    <input type="radio" name="teenus" id="t1" value="teenus1" onclick="teenusSelection()">
-    <label for="t1">Takso</label>
+    <input type="radio" name="teenus" id="teenus1" value="teenus_1" onclick="teenusSelection()">
+    <label for="teenus1">Takso</label>
     <br>
-    <input type="radio" name="teenus" id="t2" value="teenus2" onclick="teenusSelection()">
-    <label for="t2">Rong</label>
+    <input type="radio" name="teenus" id="teenus2" value="teenus_2" onclick="teenusSelection()">
+    <label for="teenus2">Rong</label>
     <br>
-    <input type="radio" name="teenus" id="t3" value="teenus3" onclick="teenusSelection()">
-    <label for="t3">Restoran</label>
+    <input type="radio" name="teenus" id="teenus3" value="teenus_3" onclick="teenusSelection()">
+    <label for="teenus3">Restoran</label>
     <br>
-    <input type="radio" name="teenus" id="t4" value="teenus4" onclick="teenusSelection()">
-    <label for="t4">Bussipilet</label>
+    <input type="radio" name="teenus" id="teenus4" value="teenus_4" onclick="teenusSelection()">
+    <label for="teenus4">Bussipilet</label>
 </fieldset>
 <br>
 <fieldset>

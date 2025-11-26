@@ -1,5 +1,5 @@
 nav {
-    background-color: #ffffff;
+    background-color: #999999;
     font-family: Arial, sans-serif;
     border-bottom: 1px solid #999;
 }
@@ -45,7 +45,7 @@ nav ul li ul li a {
 }
 
 nav ul li ul li:last-child a {
-    background-color: #555;
+    background-color: #777777;
     color: #fff;
 }
 

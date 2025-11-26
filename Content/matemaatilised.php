@@ -1,5 +1,6 @@
 <?php
-function clearVarsExcept($url,$varname){
+function clearVarsExcept($url,$varname): string
+{
     $url=basename($url);
     if(str_starts_with($url,"?")){
         return "?$varname=".$_REQUEST[$varname];
@@ -84,12 +85,11 @@ if(isset($_REQUEST['ans1'])&&($_REQUEST['ans1']!="")) {
     if ($_REQUEST['ans1'] == $salarv1) {
         echo "<div id='correct'>";
         echo $_REQUEST['ans1'] . " on õige.";
-        echo "</div>";
     } else {
         echo "<div id='incorrect'>";
         echo $_REQUEST['ans1'] . " on vale.";
-        echo "</div>";
     }
+    echo "</div>";
 }
 echo "<br>";
 if(isset($_REQUEST['ans2'])&&($_REQUEST['ans2']!="")) {
@@ -97,10 +97,9 @@ if(isset($_REQUEST['ans2'])&&($_REQUEST['ans2']!="")) {
     if ($_REQUEST['ans2'] == $salarv2) {
         echo "<div id='correct'>";
         echo $_REQUEST['ans2'] . " on õige.";
-        echo "</div>";
     } else {
         echo "<div id='incorrect'>";
         echo $_REQUEST['ans2'] . " on vale.";
-        echo "</div>";
     }
+    echo "</div>";
 }

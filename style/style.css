@@ -38,20 +38,36 @@ header {
 
 div.flex-container {
     display: flex;
-    /* Show the flex items horizontally */
     flex-direction: row;
 }
 
 div.flex-container > div {
     margin: 10px;
     border: solid 1pt grey;
+    background-color: #d6d6d6;
     border-radius: 10px;
     padding: 10px;
 }
 
-/* Use media query and show the flex items vertically if screen width is less than 600px */
 @media screen and (max-width:600px) {
     div.flex-container {
         flex-direction: column;
     }
+}
+
+
+div.Gallery_Container {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+
+}
+
+div.Gallery_Container > div {
+    margin: 10px;
+    border: solid darkred 1pt;
+    border-radius: 10px;
+    padding: 10px;
+    flex: 1;
+
 }

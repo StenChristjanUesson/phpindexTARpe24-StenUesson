@@ -6,7 +6,7 @@ git config --global --list - näitab mis on registreeritud
 //ssh võti loomine
 ssh-keygen -o -t rsa -C "StenUesson@gmail.com"
 //võti salvestakse opilane/.ssh kausta
-//id_rsa.pub tuleb kopeerida oma git hub -reposse
+//id_rsa.pub tuleb kopeerida oma github -reposse
 git add .
 git commit -a -m "on loodud phpIndex"
 git remote remove origin

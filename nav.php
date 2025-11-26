@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navigatsioon</title>
-    <link rel="stylesheet" href="rippMenuStyle.css">
+    <link rel="stylesheet" href="style/rippMenuStyle.css">
 </head>
 <body>
     <div id="main">
         <div id="content">
             <nav class="menu">
                 <ul>
+
                     <li>
                         <a href="?leht=index.php">Kodu</a>
                     </li>
@@ -35,6 +36,10 @@
                     <li>
                         <a href="?leht=matemaatilised.php">Matem. Funktsioonid</a>
                     </li>
+                    <li>
+                        <a href="?leht=Gallery.php">Gallery</a>
+                    </li>
+
                 </ul>
             </nav>
         </div>

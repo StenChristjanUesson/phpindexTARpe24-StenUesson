@@ -90,13 +90,12 @@ function pilt(){
 }
 
 function Valkusfoor(){
-    //määrame tahvli
     const tahvel=document.getElementById("tahvel");
     if(tahvel.getContext){
-        let t=tahvel.getContext("2d") // anname tahvlinimi on t
+        let t=tahvel.getContext("2d")
         t.beginPath;
         t.fillStyle="black";
-        t.FillRect(30,30, 70, 100) // 0,0 -vasak üleval tahvli nurk, 300-tahvli laius, 250- tahvli kõrgus
+        t.FillRect(30,30, 70, 100)
     }
 }
 

@@ -8,8 +8,8 @@
 <input type="number" id="raadius" min="0" max="60" value="5">
 <input type="button" value="Ring" onclick="ringJoon()">
 <br>
-<input type="number" id="width" min="0" max="60" value="5">
-<input type="number" id="height" min="0" max="60" value="5">
+<label for="width"><input type="number" id="width" min="0" max="60" value="5"></label>
+<label for="height"><input type="number" id="height" min="0" max="60" value="5"></label>
 <input type="button" value="Rectangle" onclick="rectJoon()">
 <br>
 <input type="button" value="Picsum Pilt" onclick="randomImg()">
@@ -25,5 +25,5 @@
 <h1>Lipud</h1>
 <canvas id="lipp" width="330" height="210"></canvas>
 <input type="button" value="Eesti lipp" onclick="eestiLipp()">
-<input type="button" value="Prantsus lipp" onclick="franceLipp()">
-<input type="button" value="Canada lipp" onclick="canadaLipp()">
+<input type="button" value="Prantsus lipp" onclick="prantsusmaa()">
+<input type="button" value="Canada lipp" onclick="jaapan()">
